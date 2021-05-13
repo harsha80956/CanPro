@@ -1,0 +1,163 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.main-logo{
+  max-width: 100px;
+}
+.navbar-custom{
+  background-color: #ffffff!important
+}
+.secondary-menu{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.secondary-menu a {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #0b585f;
+  font-weight: bold;
+}
+.secondary-menu a:first-child{
+  margin-left: 0px;
+}
+.secondary-menu a:last-child{
+  margin-right: 0px;
+}
+.secondary-menu a:last-child{
+  margin-right: 0px;
+}
+.app-store{
+  padding: 10px;
+  background: #0d1725;
+  color: #FFFFFF;
+  border-radius: 3px;
+  font-weight: normal !important;
+}
+.banner-image{
+  width: 100%;
+  height: 100%;
+}
+.download-app{
+  width: 25px;
+}
+img{
+  max-width: 100%;
+}
+.carousel.slide{
+  background: #635c5c;
+  height: 300px;
+}
+.nav-item .nav-link{
+  color: #002866 !important;
+}
+.btn-primary,.btn-secondary{
+  background-color: #002866 !important;
+  width: 100px;
+}
+
+footer{
+  background-color: #282c34;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: left;
+}
+footer p{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.footer-address{
+  font-weight: normal !important;
+  font-size: 1rem !important;
+  margin-bottom: 0px;
+}
+footer a{
+  display: block;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.active.carousel-item img{
+  width: auto !important;
+}
+
+.primary{
+    background: #ce1e1e;
+    border: 1px solid #ce1e1e;
+    border-radius: 3px;
+    padding: 7px 15px;
+    color: #ffffff;
+}
+.secondary{
+  background: #ce1e1e;
+  border: 1px solid #ce1e1e;
+  border-radius: 3px;
+  padding: 7px 15px;
+  color: #ffffff;
+}
+.primary:focus,.secondary:focus{
+  outline: none;
+}
+.prodDesc{
+  font-weight: bold;
+  font-size: 20px;
+}
+.price{
+  font-size: 16px;
+  color: #002866;
+}
+.discount{
+    display: inline-block;
+    position: relative;
+}
+.discount::after{
+  position: absolute;
+  width: 100%;
+  content:"";
+  height: 1px;
+  background: #002866;
+  left: 0px;
+  top: 50%;
+}
+.foodCategory{
+  position: absolute;
+  top: 15px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.foodVeg{
+  color: #3d7c36;
+  background: #51964a;
+}
+.foodNonveg{
+  color: #3d7c36;
+  background: #51964a;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
