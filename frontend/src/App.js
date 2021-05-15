@@ -7,10 +7,10 @@ import Signin from './pages/Signin'
 
 function App(props) {
   const handleLoginShow = () => {
-    window.location.href('/')
+    window.location.assign('/')
   }
   const handleSignin = () => {
-    window.location.href('/')
+    window.location.assign('/register')
   }
 
   return (
